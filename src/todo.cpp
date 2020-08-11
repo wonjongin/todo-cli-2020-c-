@@ -1,7 +1,7 @@
 #include <iostream>
-#include "help.h"
-#include "add.h"
-#include "list.h"
+#include "help.hpp"
+#include "add.hpp"
+#include "list.hpp"
 
 int main(void){
     using namespace std;

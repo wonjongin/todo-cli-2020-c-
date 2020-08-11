@@ -1,7 +1,7 @@
-#ifndef list_h
-#define list_h
+#ifndef list_hpp
+#define list_hpp
 
 void list(void);
 static int callback(void *data, int argc, char **argv, char **azColName);
 
-#endif /* list_h */ 
+#endif /* list_hpp */ 
