@@ -12,6 +12,4 @@ void help(void){
             cout << line << endl;
         }
     }
-    
-    
 }

@@ -6,7 +6,7 @@
 int main(void){
     using namespace std;
     string arg;
-    string version="0.0.1";
+    string version="0.0.2";
     cout <<"Todo app for cli ver "<<version<<" type \"help\"!! " << endl;
     while (1)
     {
