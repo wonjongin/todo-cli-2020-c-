@@ -35,13 +35,13 @@ void add(void){
     cout << "title[필수]: ";
     getline(cin, title, '\n');
     //cin >> title;
-    cout << "description[내용이 없을 시 . 입력]: ";
+    cout << "description[선택]: ";
     //cin >> desc;
     getline(cin, desc, '\n');
-    cout << "deadline(MM-DD or YYYY-MM-DD)[내용이 없을 시 . 입력]: ";
+    cout << "deadline(MM-DD or YYYY-MM-DD)[선택]: ";
     //cin >> deadline;
     getline(cin, deadline, '\n');
-    cout << "category[내용이 없을 시 . 입력]: ";
+    cout << "category[선택]: ";
     //cin >> category;
     getline(cin, category, '\n');
     insert = "INSERT INTO TODO (title, description, deadline, category, state) VALUES ('"+title+"','"+desc+"','"+deadline+"','"+category+"',0);";

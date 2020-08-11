@@ -49,6 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test_library.dir/DependInfo.cmake"
-  "CMakeFiles/todo.o.dir/DependInfo.cmake"
+  "CMakeFiles/todo.dir/DependInfo.cmake"
   )
