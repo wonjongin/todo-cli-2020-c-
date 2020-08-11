@@ -60,7 +60,7 @@ void add(void){
     if(category ==strCancel){
         return;
     }
-    cout<< title<<" "<<desc<<" "<<deadline<<" "<<category<<endl;
+    cout<< title<<" | "<<desc<<" | "<<deadline<<" | "<<category<<endl;
     cout<<"This is correct?? (Y,n) ";
     getline(cin, strIsCorrect, '\n');
     if(strIsCorrect==""||strIsCorrect=="y"||strIsCorrect=="Y"||strIsCorrect=="yes"||strIsCorrect=="YES"){

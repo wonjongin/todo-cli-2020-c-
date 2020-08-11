@@ -16,9 +16,11 @@ static int callback(void *data, int argc, char **argv, char **azColName){
 
    // }
    if(atoi(argv[4])==0){
-      strState="[!]";
+      strState="[-]";
    } else if(atoi(argv[4])==1) {
       strState="[~]";
+   } else {
+      strState="[!]";
    }
    printf("%s\t", argv[0] ? argv[0] : "NULL");
    std::cout<< strState<<"\t";
@@ -42,7 +44,7 @@ void list(void){
    } else {
       fprintf(stderr, "Opened database successfully\n");
    }
-   std::cout<<"id\tstate\ttitle\t\tdeadl"<<endl;
+   std::cout<<"id\tstate\ttitle\t\t\tdeadl"<<endl;
    sql = "SELECT * from TODO";
    rc = sqlite3_exec(db, sql, callback, (void*)data, &err_msg);
    if( rc != SQLITE_OK ) {
