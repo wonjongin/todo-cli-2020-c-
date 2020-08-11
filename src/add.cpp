@@ -31,15 +31,20 @@ void add(void){
       fprintf(stdout, "Table created successfully\n");
    }
     
+    getline(cin, title, '\n');
     cout << "title[필수]: ";
-    cin >> title;
+    getline(cin, title, '\n');
+    //cin >> title;
     cout << "description[내용이 없을 시 . 입력]: ";
-    cin >> desc;
+    //cin >> desc;
+    getline(cin, desc, '\n');
     cout << "deadline(MM-DD or YYYY-MM-DD)[내용이 없을 시 . 입력]: ";
-    cin >> deadline;
+    //cin >> deadline;
+    getline(cin, deadline, '\n');
     cout << "category[내용이 없을 시 . 입력]: ";
-    cin >> category;
-    insert = "INSERT INTO TODO (title, description, deadline, category) VALUES ('"+title+"','"+desc+"','"+deadline+"','"+category+"');";
+    //cin >> category;
+    getline(cin, category, '\n');
+    insert = "INSERT INTO TODO (title, description, deadline, category, state) VALUES ('"+title+"','"+desc+"','"+deadline+"','"+category+"',0);";
     insertsql = insert.c_str();
     rc = sqlite3_exec(db, insertsql, 0, 0, &err_msg);
     if( rc != SQLITE_OK ){
