@@ -34,3 +34,13 @@ Todo app for cli ver 0.0.1 type "help"!!
 questions 질문들
 title: The title of the task
 description: 
+
+### See the task 할일 보기
+```
+todo
+Todo app for cli ver 0.0.1 type "help"!!
+> list
+```
+
+## Contribute
+See [CONTRIBUTE.md](./CONTRIBUTE.md)
