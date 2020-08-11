@@ -2,7 +2,8 @@
 
 cd src;
 make todo;
-ln -s ./todo /usr/local/bin/todo;
+SHELL_PATH=`pwd -P`
+ln -s $SHELL_PATH/todo /usr/local/bin/todo;
 cd ..;
 cat intro.txt;
 echo "Finish!!";
