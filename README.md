@@ -12,7 +12,7 @@ cd todo-cli-2020-c-
 ./install.sh
 ```
 ### Windows 윈도우
-
+Available later 추후 사용 가능
 ## Update 업데이트
 ```
 cd todo-cli-2020-c-
