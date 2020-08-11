@@ -5,12 +5,26 @@
 
 static int callback(void *data, int argc, char **argv, char **azColName){
    int i;
-   fprintf(stderr, "%s: ", (const char*)data);
+   std::string strState;
+   //fprintf(stderr, "%s: \n", (const char*)data);
    
-   for(i = 0; i<argc; i++){
-      printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+   // for(i = 0; i<argc; i++){
+   //    printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+   // }
+   // for(i=0; i<argc; i++){
+   //    printf("%s \t", argv[i] ? argv[i] : "NULL");
+
+   // }
+   if(atoi(argv[4])==0){
+      strState="[!]";
+   } else if(atoi(argv[4])==1) {
+      strState="[~]";
    }
-   
+   printf("%s\t", argv[0] ? argv[0] : "NULL");
+   std::cout<< strState<<"\t";
+   printf("%s\t\t", argv[1] ? argv[1] : "NULL");
+   printf("%s\t", argv[3] ? argv[3] : "NULL");
+
    printf("\n");
    return 0;
 }
@@ -28,6 +42,7 @@ void list(void){
    } else {
       fprintf(stderr, "Opened database successfully\n");
    }
+   std::cout<<"id\tstate\ttitle\t\tdeadl"<<endl;
    sql = "SELECT * from TODO";
    rc = sqlite3_exec(db, sql, callback, (void*)data, &err_msg);
    if( rc != SQLITE_OK ) {
