@@ -29,7 +29,7 @@ void list(void){
       fprintf(stderr, "Opened database successfully\n");
    }
    sql = "SELECT * from TODO";
-   rc = sqlite3_exec(db, sql, 0, (void*)data, &err_msg);
+   rc = sqlite3_exec(db, sql, callback, (void*)data, &err_msg);
    if( rc != SQLITE_OK ) {
       fprintf(stderr, "SQL error: %s\n", err_msg);
       sqlite3_free(err_msg);

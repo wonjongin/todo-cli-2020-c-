@@ -13,7 +13,12 @@ cd todo-cli-2020-c-
 ```
 ### Windows 윈도우
 
+## Update 업데이트
+```
+cd todo-cli-2020-c-
 
+git pull
+```
 ## Usage 사용법
 ### Execute the app 실행하기
 ```

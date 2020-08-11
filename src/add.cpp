@@ -21,6 +21,7 @@ void add(void){
     "title          TEXT    NOT NULL," \
     "description    TEXT," \
     "deadline       TEXT," \
+    "state          INT," \
     "category       TEXT );";
     rc = sqlite3_exec(db, sql, 0, 0, &err_msg);
     if( rc != SQLITE_OK ){
