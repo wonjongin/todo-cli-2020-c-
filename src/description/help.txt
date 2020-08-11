@@ -1,0 +1,5 @@
+This app is a todo app for Command Line Interface
+    q       : Quit this app
+    add     : Add todo
+    list    : View list
+    help    : See help

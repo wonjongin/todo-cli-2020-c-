@@ -1,0 +1,21 @@
+CC = clang++
+SRCS = $(*.cpp)
+OBJS = $(SRCS:.cpp=.o)
+LIBS = -lsqlite3
+LIB_DIRS = -L./lib
+TARGET = out
+INC = -I./include
+all : $(TARGET)
+	$(CC) -o $(TARGET) $(OBJS) $(INC) $(LIB_DIRS) $(LIBS)
+$(TARGET) :
+	$(CC) -c $(SRCS) $(INC) $(LIB_DIRS) $(LIBS)
+
+
+# help.o : help.h help.cpp
+# 	$(CC) -c help.cpp
+# add.o : add.h add.cpp
+# 	$(CC) -c add.cpp
+# todo.o : todo.cpp help.h add.h
+# 	$(CC) -c todo.cpp
+# todo : help.o add.o todo.o
+# 	$(CC) help.o add.o todo.o -o todo
