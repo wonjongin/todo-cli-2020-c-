@@ -1,4 +1,4 @@
 test
-data/*
+data/test.db
 .vscode
 .DS_Store
