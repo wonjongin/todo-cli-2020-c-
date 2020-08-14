@@ -169,6 +169,33 @@ add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/add.cpp.s
 .PHONY : add.cpp.s
 
+finish.o: finish.cpp.o
+
+.PHONY : finish.o
+
+# target to build an object file
+finish.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/finish.cpp.o
+.PHONY : finish.cpp.o
+
+finish.i: finish.cpp.i
+
+.PHONY : finish.i
+
+# target to preprocess a source file
+finish.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/finish.cpp.i
+.PHONY : finish.cpp.i
+
+finish.s: finish.cpp.s
+
+.PHONY : finish.s
+
+# target to generate assembly for a file
+finish.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/finish.cpp.s
+.PHONY : finish.cpp.s
+
 help.o: help.cpp.o
 
 .PHONY : help.o
@@ -289,6 +316,9 @@ help:
 	@echo "... add.o"
 	@echo "... add.i"
 	@echo "... add.s"
+	@echo "... finish.o"
+	@echo "... finish.i"
+	@echo "... finish.s"
 	@echo "... help.o"
 	@echo "... help.i"
 	@echo "... help.s"

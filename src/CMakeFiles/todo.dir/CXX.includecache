@@ -6,17 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/wonjong-in/development/2020/c++/todo-cli/src/pass.cpp
-stdio.h
--
-termios.h
--
-stdio.h
--
+/Users/wonjong-in/development/2020/c++/todo-cli/src/add.hpp
 string
 -
-unistd.h
--
+
+/Users/wonjong-in/development/2020/c++/todo-cli/src/finish.hpp
+
+/Users/wonjong-in/development/2020/c++/todo-cli/src/help.hpp
+
+/Users/wonjong-in/development/2020/c++/todo-cli/src/list.hpp
+
+/Users/wonjong-in/development/2020/c++/todo-cli/src/pass.hpp
+
+/Users/wonjong-in/development/2020/c++/todo-cli/src/todo.cpp
 iostream
 -
+help.hpp
+/Users/wonjong-in/development/2020/c++/todo-cli/src/help.hpp
+add.hpp
+/Users/wonjong-in/development/2020/c++/todo-cli/src/add.hpp
+list.hpp
+/Users/wonjong-in/development/2020/c++/todo-cli/src/list.hpp
+pass.hpp
+/Users/wonjong-in/development/2020/c++/todo-cli/src/pass.hpp
+finish.hpp
+/Users/wonjong-in/development/2020/c++/todo-cli/src/finish.hpp
 

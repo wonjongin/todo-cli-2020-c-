@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/todo.dir/add.cpp.o"
+  "CMakeFiles/todo.dir/finish.cpp.o"
   "CMakeFiles/todo.dir/help.cpp.o"
   "CMakeFiles/todo.dir/list.cpp.o"
   "CMakeFiles/todo.dir/pass.cpp.o"

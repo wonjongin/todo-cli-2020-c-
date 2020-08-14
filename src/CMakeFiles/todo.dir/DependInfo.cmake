@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/add.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/add.cpp.o"
+  "/Users/wonjong-in/development/2020/c++/todo-cli/src/finish.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/finish.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/help.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/help.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/list.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/list.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/pass.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/pass.cpp.o"

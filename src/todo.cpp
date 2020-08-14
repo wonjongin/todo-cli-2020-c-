@@ -3,13 +3,14 @@
 #include "add.hpp"
 #include "list.hpp"
 #include "pass.hpp"
+#include "finish.hpp"
 
 int main(void){
     using namespace std;
     string arg;
     string version="0.0.2";
     cout <<"Todo app for cli ver "<<version<<" type \"help\"!! " << endl;
-    pass();
+    //pass();
     while (1)
     {
         cout <<"> ";
@@ -27,6 +28,9 @@ int main(void){
         }
         else if(arg.rfind("list",0)==0){
             list();
+        }
+        else if(arg.rfind("finish",0)==0){
+            finish();
         }
         else {
             cout<<"Command not found"<<endl;
