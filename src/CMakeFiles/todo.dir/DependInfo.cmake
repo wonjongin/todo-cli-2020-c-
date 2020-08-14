@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/add.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/add.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/help.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/help.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/list.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/list.cpp.o"
+  "/Users/wonjong-in/development/2020/c++/todo-cli/src/pass.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/pass.cpp.o"
   "/Users/wonjong-in/development/2020/c++/todo-cli/src/todo.cpp" "/Users/wonjong-in/development/2020/c++/todo-cli/src/CMakeFiles/todo.dir/todo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

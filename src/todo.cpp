@@ -2,12 +2,14 @@
 #include "help.hpp"
 #include "add.hpp"
 #include "list.hpp"
+#include "pass.hpp"
 
 int main(void){
     using namespace std;
     string arg;
     string version="0.0.2";
     cout <<"Todo app for cli ver "<<version<<" type \"help\"!! " << endl;
+    pass();
     while (1)
     {
         cout <<"> ";

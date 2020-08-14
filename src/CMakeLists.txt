@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 project(todo-cli)
-set(HEADERS add.hpp help.hpp list.hpp)
-set(SOURCES todo.cpp add.cpp help.cpp list.cpp)
+set(HEADERS add.hpp help.hpp list.hpp pass.hpp)
+set(SOURCES todo.cpp add.cpp help.cpp list.cpp pass.cpp)
 add_executable(todo ${SOURCES} ${HEADERS})
 target_link_libraries(todo PRIVATE sqlite3)

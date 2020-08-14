@@ -6,8 +6,11 @@ CMakeFiles/todo.dir/help.cpp.o: help.cpp
 
 CMakeFiles/todo.dir/list.cpp.o: list.cpp
 
+CMakeFiles/todo.dir/pass.cpp.o: pass.cpp
+
 CMakeFiles/todo.dir/todo.cpp.o: add.hpp
 CMakeFiles/todo.dir/todo.cpp.o: help.hpp
 CMakeFiles/todo.dir/todo.cpp.o: list.hpp
+CMakeFiles/todo.dir/todo.cpp.o: pass.hpp
 CMakeFiles/todo.dir/todo.cpp.o: todo.cpp
 

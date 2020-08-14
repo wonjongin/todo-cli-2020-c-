@@ -223,6 +223,33 @@ list.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/list.cpp.s
 .PHONY : list.cpp.s
 
+pass.o: pass.cpp.o
+
+.PHONY : pass.o
+
+# target to build an object file
+pass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/pass.cpp.o
+.PHONY : pass.cpp.o
+
+pass.i: pass.cpp.i
+
+.PHONY : pass.i
+
+# target to preprocess a source file
+pass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/pass.cpp.i
+.PHONY : pass.cpp.i
+
+pass.s: pass.cpp.s
+
+.PHONY : pass.s
+
+# target to generate assembly for a file
+pass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/todo.dir/build.make CMakeFiles/todo.dir/pass.cpp.s
+.PHONY : pass.cpp.s
+
 todo.o: todo.cpp.o
 
 .PHONY : todo.o
@@ -268,6 +295,9 @@ help:
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
+	@echo "... pass.o"
+	@echo "... pass.i"
+	@echo "... pass.s"
 	@echo "... todo.o"
 	@echo "... todo.i"
 	@echo "... todo.s"
